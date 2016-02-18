@@ -11,6 +11,8 @@
 		FB25D3F91C754711002A1E9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25D3F81C754711002A1E9E /* Images.xcassets */; };
 		FB25D3FC1C754711002A1E9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB25D3FA1C754711002A1E9E /* MainMenu.xib */; };
 		FB25D4081C754711002A1E9E /* SpeakLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25D4071C754711002A1E9E /* SpeakLineTests.swift */; };
+		FB25D4131C75474A002A1E9E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25D4111C75474A002A1E9E /* MainWindowController.swift */; };
+		FB25D4141C75474A002A1E9E /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB25D4121C75474A002A1E9E /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		FB25D4011C754711002A1E9E /* SpeakLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB25D4061C754711002A1E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB25D4071C754711002A1E9E /* SpeakLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakLineTests.swift; sourceTree = "<group>"; };
+		FB25D4111C75474A002A1E9E /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FB25D4121C75474A002A1E9E /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				FB25D3F81C754711002A1E9E /* Images.xcassets */,
 				FB25D3FA1C754711002A1E9E /* MainMenu.xib */,
 				FB25D3F41C754711002A1E9E /* Supporting Files */,
+				FB25D4111C75474A002A1E9E /* MainWindowController.swift */,
+				FB25D4121C75474A002A1E9E /* MainWindowController.xib */,
 			);
 			path = SpeakLine;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB25D3F91C754711002A1E9E /* Images.xcassets in Resources */,
+				FB25D4141C75474A002A1E9E /* MainWindowController.xib in Resources */,
 				FB25D3FC1C754711002A1E9E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB25D4131C75474A002A1E9E /* MainWindowController.swift in Sources */,
 				FB25D3F71C754711002A1E9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
